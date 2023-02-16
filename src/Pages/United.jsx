@@ -2,7 +2,7 @@ import React from "react"
 import Nav from "../Components/Nav"
 const United=()=>{
 return(
-    <div>
+    <div className="bg-[#665df5] h-screen">
         <Nav/>
         
     </div>

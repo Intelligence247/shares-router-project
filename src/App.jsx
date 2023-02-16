@@ -12,7 +12,7 @@ import Learn from './Pages/Learn'
 import Community from './Pages/Community'
 import NotFound from './Pages/NotFound';
 
- {RouterProvider}
+//  {RouterProvider}
  export default function App() {
 const routes=createBrowserRouter([
   {
@@ -20,29 +20,29 @@ const routes=createBrowserRouter([
     element:<Shares />,
   },
   {
+    path:"/purpose",
+    element: <Purpose/>
+  },
+  {
+    path:"/community",
+    element:<Community/>
+  },
+  {
     path:"/career",
     element:<Careers/>,
+  },
+     {
+    path:"/learn",
+    element:<Learn/>
   },
   {
     path:"/united",
     element:<United/>
   },
   {
-    path:"/purpose",
-    element: <Purpose/>
-  },
-  {
-    path:"/learn",
-    element:<Learn/>
-  },
-  {
-    path:"/community",
-    element:<Community/>
-  },{
   path:"*",
   element:<NotFound/>
-  }
+  },
 ])
 return <RouterProvider router = {routes}/>
-    }
-
+}
