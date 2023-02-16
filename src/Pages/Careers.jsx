@@ -1,7 +1,10 @@
 import React from "react"
+import Nav from "../Components/Nav"
 const Careers=()=>{
 return(
-    <div></div>
+    <div>
+        <Nav/>
+    </div>
 )
 }
 export default Careers

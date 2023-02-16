@@ -1,7 +1,10 @@
-import React from "react"
-const Shares=()=>{
-return(
-    <div></div>
-)
+
+import Nav from "../Components/Nav";
+
+export default function Shares(){
+    return(
+        <div className="bg-[green]">
+            <Nav/>
+        </div>
+    )
 }
-export default Shares

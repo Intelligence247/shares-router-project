@@ -1,7 +1,10 @@
 import React from "react"
+import Nav from "../Components/Nav"
 const Community=()=>{
 return(
-    <div></div>
+    <div>
+        <Nav/>
+    </div>
 )
 }
 export default Community
