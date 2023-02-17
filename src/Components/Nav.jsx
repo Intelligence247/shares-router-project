@@ -10,9 +10,11 @@ const Nav=()=>{
 <Link to="/purpose">purpose</Link>
 <Link to="/community">Community</Link>
 <Link to="/career">Careers</Link>
-<Link to="/learn">Learn</Link> 
+<Link to="/learn" target="blank">Learn</Link> 
 <Link to="/united">United Kingdom</Link>
-          
+<img src="/media/logo2.svg" alt="" />
+{/* <img src="/media/QR code.svg" alt="" /> */}
+{/* <img src="/media/investing.avif" alt="" /> */}
         </div>
     )
 }
