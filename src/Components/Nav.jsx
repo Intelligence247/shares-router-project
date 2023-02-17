@@ -1,10 +1,17 @@
 
-import React from "react"
+import  React from "react"
 import { Link } from "react-router-dom"
+import { useState } from "react"
+import './Nav.css'
 
 const Nav=()=>{
+    const [active, setActive] = useState(true)
+    window.addEventListener('scroll',()=>{
+        console.log(scrollY)
+    scrollY >= 30 ? setActive(true) : setActive(false)
+    })
     return (
-        <div className="flex gap-[3rem] w-screen px-[5rem] h-[5rem] bg-transparent justify-center items-center text-[1.2rem]">
+        <div className={`NavWrapper ${active && 'active'}`}>
 <Link to="/">Shares</Link> 
 <span className="flex-grow-[1]"></span>
 <Link to="/purpose">purpose</Link>
@@ -13,8 +20,6 @@ const Nav=()=>{
 <Link to="/learn" target="blank">Learn</Link> 
 <Link to="/united">United Kingdom</Link>
 <img src="/media/logo2.svg" alt="" />
-{/* <img src="/media/QR code.svg" alt="" /> */}
-{/* <img src="/media/investing.avif" alt="" /> */}
         </div>
     )
 }

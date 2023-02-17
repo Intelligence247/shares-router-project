@@ -1,0 +1,6 @@
+.NavWrapper{
+    @apply flex gap-[3rem] w-screen px-[5rem] h-[5rem] bg-transparent justify-center items-center text-[1.2rem]
+  }
+  .NavWrapper.active{
+    @apply bg-white fixed
+  }
