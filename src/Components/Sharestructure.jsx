@@ -1,4 +1,5 @@
 import React from 'react'
+import Cookies from './Cookies'
 
 const Sharestructure = () => {
   return (
@@ -14,6 +15,11 @@ const Sharestructure = () => {
  </div>
  </div>
  <img src="/media/investing.avif"className='w-[48%]' alt="" />
+ {/* <img src="/media/harmburger.svg" alt="" /> */}
+ {/* <img src="/media/harmburger2.svg" alt="" /> */}
+ {/* <img src="/media/logo.svg" alt="" /> */}
+
+ <Cookies/>
     </div>
   )
 }

@@ -10,6 +10,7 @@ import Purpose from './Pages/Purpose'
 import Learn from './Pages/Learn'
 import Community from './Pages/Community'
 import NotFound from './Pages/NotFound';
+import Cookies from './Components/Cookies';
 
 export default function App() {
 const routes=createBrowserRouter([
@@ -41,6 +42,9 @@ const routes=createBrowserRouter([
   path:"*",
   element:<NotFound/>
   },
+ 
 ])
-return <RouterProvider router = {routes}/>
+return(
+   <RouterProvider router = {routes}/>
+   )
 }

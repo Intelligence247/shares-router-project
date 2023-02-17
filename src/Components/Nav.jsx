@@ -12,7 +12,9 @@ const Nav=()=>{
     })
     return (
         <div className={`NavWrapper ${active && 'active'}`}>
-<Link to="/">Shares</Link> 
+<Link to="/">
+    <img src="/media/logo.svg" className="w-[8rem]" alt="" /> 
+</Link> 
 <span className="flex-grow-[1]"></span>
 <Link to="/purpose">purpose</Link>
 <Link to="/community">Community</Link>
