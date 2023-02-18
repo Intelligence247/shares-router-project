@@ -1,0 +1,6 @@
+.cookies{
+    @apply h-[20rem] w-[15rem] bg-white top-[33%] fixed transition-all
+}
+.cookies.active{
+    @apply left-full 
+}
