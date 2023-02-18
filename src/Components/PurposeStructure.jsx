@@ -1,4 +1,5 @@
 import React from 'react'
+import Cookies from './Cookies'
 
 const PurposeStructure = () => {
   return (
@@ -9,6 +10,7 @@ const PurposeStructure = () => {
 <p>We’re putting an end to investing alone or thinking “the financial market isn’t for me”. Shares brings connecting with friends and Investing together – in one app. Because we believe investing is for everyone, not just the top dogs.</p>
         </div>
         <img src="/media/thebomb.avif"className='w-[50%]' alt="" />
+        <Cookies/>
     </div>
   )
 }

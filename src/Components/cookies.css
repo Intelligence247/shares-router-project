@@ -1,6 +1,32 @@
 .cookies{
-    @apply h-[20rem] w-[15rem] bg-white top-[33%] fixed transition-all
+    @apply h-[30rem] w-[30rem] bg-white top-[15%] fixed transition-all p-4 text-[.8rem] 
 }
 .cookies.active{
     @apply left-full 
+}
+.cookies header{
+    @apply flex justify-center items-center 
+}
+ header h1{
+@apply text-[1.8rem] font-[700] 
+}
+.cookies p{
+    @apply leading-6
+}
+.reason{
+@apply opacity-[0.8] mt-[2rem]
+}
+
+.reason li{
+    @apply  hover:underline w-max
+}
+
+.cookiesWrapper footer{
+    @apply flex justify-between w-full px-4 mt-[2rem]
+}
+.cookiesWrapper footer p{
+    @apply cursor-pointer
+}
+.cookiesWrapper{
+    transition: all .4s linear;;
 }

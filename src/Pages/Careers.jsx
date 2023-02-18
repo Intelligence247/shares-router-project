@@ -1,5 +1,6 @@
 import React from "react"
 import Careerstructure from "../Components/Careerstructure"
+import Cookies from "../Components/Cookies"
 import Nav from "../Components/Nav"
 const Careers=()=>{
 return(
@@ -11,6 +12,7 @@ return(
         desc={'We’re on a mission to give every human fair access to the stock market and the social connectedness and support to build a strong financial future – in community.'}
         img={'media/joincrew.png'}
         />
+        <Cookies/>
     </div>
 )
 }

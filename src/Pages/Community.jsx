@@ -1,5 +1,6 @@
 import React from "react"
 import Careerstructure from "../Components/Careerstructure"
+import Cookies from "../Components/Cookies"
 import Nav from "../Components/Nav"
 import "./Community.css"
 const Community=()=>{
@@ -13,6 +14,7 @@ return(
         desc={'Whether you’re new to investing or been around the block, level up your money moves with Communities. Speak your mind and ask those burning questions, in a safe space where everybody’s welcome.'}
         img={"/media/newbies.png"}
         />
+        <Cookies/>
     </div>
 )
 }
