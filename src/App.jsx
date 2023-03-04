@@ -12,7 +12,7 @@ import Community from './Pages/Community'
 import NotFound from './Pages/NotFound';
 import Cookies from './Components/Cookies';
 
-export default function App() {
+ function App() {
 const routes=createBrowserRouter([
   {
     path:"/",
@@ -48,3 +48,4 @@ return(
    <RouterProvider router = {routes}/>
    )
 }
+export default App

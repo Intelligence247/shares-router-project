@@ -1,11 +1,10 @@
 
 import  React from "react"
 import { Link } from "react-router-dom"
-import { useState } from "react"
 import './Nav.css'
 
 const Nav=()=>{
-    const [active, setActive] = useState(true)
+    const [active, setActive] = React.useState(true)
     window.addEventListener('scroll',()=>{
         console.log(scrollY)
     scrollY >= 30 ? setActive(true) : setActive(false)
